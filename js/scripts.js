@@ -12,9 +12,9 @@ function getRandomGenre(array){
 }
 
 function output()
-{	document.write("Here's your simple generated genre:");
+{	document.write("Here's your simple generated genre: ");
 	document.write(getRandomGenre(popular_genres) + " at "  + getRandomInt(60,200) + " BPM." + "<br>");
-	document.write("Here's your complex generated genre:");
+	document.write("Here's your complex generated genre: ");
 	document.write(getRandomGenre(popular_genres) + ' ' + getRandomGenre(popular_genres) + " at "  + getRandomInt(60,200) + " BPM.");
 }
 
