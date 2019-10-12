@@ -1,0 +1,13 @@
+.fill { 
+    min-height: 100%;
+    height: 100%;
+}
+
+.fsize{
+	font-size: 2px;
+}
+
+.igpic{
+	height:10%;
+	width:10%;
+}
